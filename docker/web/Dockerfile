@@ -44,4 +44,5 @@ COPY apache /etc/apache2/sites-available/
 
 RUN a2ensite cart.conf
 
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 CMD apachectl -D FOREGROUND
