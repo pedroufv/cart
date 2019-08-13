@@ -4,8 +4,8 @@
 - run `composer install`
 - create dotenv `cp .env.example .env`
 - run docker `docker-compose up -d`
-- generate key `docker-compose exec cart bash -c "php ./cart/artisan key:generate"` 
-- run migrations `docker-compose exec cart bash -c "php ./cart/artisan migrate"` 
+- generate key `docker-compose exec --user=dev cart bash -c "php ./cart/artisan key:generate"` 
+- run migrations `docker-compose exec --user=dev cart bash -c "php ./cart/artisan migrate"` 
 - register and login to manager products
 - open hosts `sudo vim /etc/hosts`
 - add host `127.0.0.1   cart.dev`
