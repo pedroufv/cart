@@ -8,4 +8,4 @@
 - register and login to manager products
 - open hosts `sudo vim /etc/hosts`
 - add host `127.0.0.1   cart.dev`
-- access cart.dev on browser
+- access `cart.dev:8000` on browser
