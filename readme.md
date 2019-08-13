@@ -1,5 +1,5 @@
 ## How to run this project?
-- clone this repository: `git clone ..`
+- clone this repository: `git clone git@github.com:pedroufv/cart.git`
 - run `composer install`
 - create dotenv `cp .env.example .env`
 - run docker `docker-compose up -d`
